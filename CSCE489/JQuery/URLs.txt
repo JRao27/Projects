@@ -1,0 +1,5 @@
+2. Animations (URL) - http://projects.cse.tamu.edu/josh1996/CSCE489/JQuery/2/JQuery4.html
+
+3. Altering Basic HTML (URL) - http://projects.cse.tamu.edu/josh1996/CSCE489/JQuery/3/JQuery5.html
+
+	/*For 3. Altering Basic HTML - I did not have the font ‘Roberto Condensed’ on my computer so I used a <script> tag at the top of my HTML page just to make sure that it worked. */

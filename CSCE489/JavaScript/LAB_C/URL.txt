@@ -1,0 +1,4 @@
+Computer Store URL - http://projects.cse.tamu.edu/josh1996/CSCE489/JavaScript/LAB_C/LaptopShopt.html
+
+**Every laptop can be shown by unchecking and then checking the 5 laptop brand checkboxes at the top. 
+**Maximum Weight will filter from all laptops in the JSON file regardless of how many are shown for a better experience. Same with Minimum Screen length. Please uncheck and then check the corresponding checkboxes when typing in values. 

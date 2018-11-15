@@ -1,0 +1,15 @@
+PHP and MySQL Homework A by Joshua Rao
+
+	Question 1 - MySQL Table Exercise
+		URL - http://projects.cse.tamu.edu/josh1996/CSCE489/PHP_HTML/php2HWAdb1.JPG
+
+	Question 2 - Entering Data into the DB Exercise
+		**I was confused here because the pictures requested would be the same from question 1 and question 2. All of the changes to the database in phpMyAdmin were done in question 2 and then nothing in phpMyAdmin was changed in question 3 since this was just showing the information in on a webpage. Question 1 asks for a final screenshot which should be the same as the screenshot question 2 asked for since nothing affected the database after question 2. 
+
+		URL - http://projects.cse.tamu.edu/josh1996/CSCE489/PHP_HTML/php2HWAdb2.JPG
+
+	Question 3 - Display Data from the DB Exercise
+		**I spoke to Dr. Lupoli about not being able to log into my TAMU phpMyAdmin account. He said that it would be ok if I performed the same functions except it was on a local (localhost) phpMyAdmin server. He did not look at my final product and say it was correct but he did say that performing it offline would work since I was still performing the same tasks. The only thing is that my .php file can only work on my own server since that is the only place that the database is instead of worldwide like a TAMU phpMyAdmin account. Therefore, I have provided a screenshot of what the webpage looks like as well as the other required documents including the .php file. I would be willing to come in and show that my .php file can correctly retrieve data from a localhost phpMyAdmin server. I tried to just submit the .txt file which is what the instructions appeared to say but eCampus did not let me do this so I have submitted a .zip file. 
+
+		URL (to php file) - http://projects.cse.tamu.edu/josh1996/CSCE489/PHP_HTML/php2HWA.php
+

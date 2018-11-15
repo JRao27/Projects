@@ -1,0 +1,61 @@
+body {
+	background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/07/1080p-Movie-Backgrounds.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#movieDiv {
+	text-align: center;
+}
+
+#movieInfo {
+	text-align: left;
+	position: absolute;
+	top: 60px;
+}
+
+#moviePara {
+	position: absolute;
+	top: 60px;
+	right: 10px;
+	width: 40%;
+}
+
+
+
+#movieTitle {
+	color: white;
+	margin: auto;
+	text-decoration: underline;
+	text-decoration-color: #00FFFF;
+	text-shadow: 2px 2px #A9A9A9;
+	font-size: 30px;
+}
+
+#movieRelease {
+	color: white;
+	margin: auto;
+	font-size: 20px;
+}
+
+#movieRating {
+	color: white;
+	margin: auto;
+	font-size: 20px;
+}
+
+#movieLength {
+	color: white;
+	margin: auto;
+	font-size: 20px;
+}
+
+#movieCast {
+	color: white;
+	margin: auto;
+	font-size: 20px;
+}
+
+#paragraph {
+	color: white;
+}

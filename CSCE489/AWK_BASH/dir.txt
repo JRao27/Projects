@@ -1,0 +1,6 @@
+1_2_3.txt
+dir.sh
+dir.txt
+HWresults.csv
+stringLength.sh
+updatedscores.txt

@@ -1,0 +1,27 @@
+<CricketPlayers>
+	<cd>
+		<player>Sachin Tendulkar</player>
+		<country>India</country>
+		<runs>8000</runs>
+	</cd>
+	<cd>
+		<player>Adam Gilchrist</player>
+		<country>Australia</country>
+		<runs>1111</runs>
+	</cd>
+	<cd>
+		<player>Joe Root</player>
+		<country>England</country>
+		<runs>700</runs>
+	</cd>
+	<cd>
+		<player>AB de Villiers</player>
+		<country>South Africa</country>
+		<runs>5698</runs>
+	</cd>
+	<cd>
+		<player>Kane Williamson</player>
+		<country>New Zealand</country>
+		<runs>3571</runs>
+	</cd>
+</CricketPlayers>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- DO NOT MODIFY HTML -->
+
+<div>
+<h1>AJAX 5 - XML and AJAX</h1>
+
+<button type="button"
+onclick="sortPlayers('CricketPlayers.xml', 'player')">Sort by Player
+</button>
+<button type="button"
+onclick="sortPlayers('CricketPlayers.xml', 'country')">Sort by Country
+</button>
+<button type="button"
+onclick="sortPlayers('CricketPlayers.xml', 'runs')">Sort by number of runs
+</button>
+</br>
+</br>
+</div>
+
+<table border=1px id="playerTable">  <!-- THIS SHOULD BE CHANGED WITH AJAX -->
+</table>
+
+<!-- MODIFY THE BELOW JAVASCRIPT -->
+
+<script>
+function sortPlayers(inputFile, type) {
+ 	var xhttp = new XMLHttpRequest();
+ 	xhttp.open("GET", "CricketPlayers.xml", false);
+  	xhttp.onreadystatechange = function() {
+    	if (this.readyState == 4 && this.status == 200) {
+      		//myFunction(this);
+      		makeTable(this, type);
+    	}
+  	};
+  
+  xhttp.send();
+}
+
+function makeTable(xml, type) {
+	var tableArray = [];
+	var xmlDoc = xml.responseXML;
+	var element = xmlDoc.getElementsByTagName(type);
+
+	for (var i = 0; i < element.length; i++) {
+		var temp = element[i].childNodes[0].nodeValue;
+		tableArray.push(temp);
+
+	}
+	tableArray.sort();
+
+	var table = "<tr><th>" + type + "</th></tr>";
+
+	for (var i = 0; i < element.length; i++) {
+		table += "<tr><td>" + 
+		tableArray[i] + "</td></tr>";
+	}
+
+	document.getElementById("playerTable").innerHTML = table;
+}
+</script>
+
+</body>
+</html>

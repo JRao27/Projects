@@ -1,0 +1,32 @@
+body {
+	background-color: red;
+
+}
+
+#first-paragraph {
+	color: green;
+	background-color: white;
+	font-family: sans-serif;
+}
+
+#second-paragraph {
+	color: blue;
+	background-color: yellow;
+	font-family: fantasy;
+}
+
+.gallery {
+    margin: 10px;
+    float: left;
+    width: 150px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    padding: 10px;
+    text-align: center;
+}

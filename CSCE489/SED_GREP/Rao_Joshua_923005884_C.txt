@@ -1,0 +1,6 @@
+1. sed -n 40,50p US_States.txt
+2. sed -e :a -e '$q;N;21,$D;ba' US_States.txt 
+3. sed -n '/Pennsylvania/{p;n;p;n;p;n;p;n;p}' US_States.txt
+4. sed '/South/d' US_States.txt
+5. grep " Mi" US_States.txt
+6. grep -v New US_States.txt | wc -l

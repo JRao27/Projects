@@ -1,0 +1,49 @@
+body, html {
+	width: 100%;
+  	height: 100%;
+  	margin: 0;
+
+}
+#topDiv {
+	text-align: center;
+	height: 33.3%;
+}
+
+
+.gallery-parent {
+	text-align: center;
+	height: 33.3%;
+	text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+}
+
+
+.gallery {
+	display:inline-block;
+	*display: inline;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+
+#bottomDiv {
+	height: 33.3%;
+	text-align: center;
+	bottom: 0;
+}
+/*
+#bottom_div {
+	background-color: yellow;
+	position: absolute;
+	margin: auto;
+	z-index: 1;
+    width: 100%;
+	bottom: 0;
+}*/

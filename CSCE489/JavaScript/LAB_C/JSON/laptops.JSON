@@ -1,0 +1,327 @@
+{
+	"Lenovo": [
+		{
+			"Brand": "Lenovo",
+			"Model Name": "330-15IKB",
+			"Model Number": "81DE0085US",
+			"Price": "$379.99",
+			"Operating System": "Windows 10",
+			"Hard Drive Size": "1TB",
+			"RAM size": "8GB",
+			"Screen Size": "15.6",
+			"Weight": "4.85"
+
+
+		},
+
+		{
+			"Brand": "Lenovo",
+			"Model Name": "330-15IGM",
+			"Model Number": "81D1003TUS",
+			"Price": "$199.99",
+			"Operating System": "Windows 10",
+			"Hard Drive Size": "500GB",
+			"RAM size": "4GB",
+			"Screen Size": "15.6",
+			"Weight": "4.85"
+		},
+
+		{
+			"Brand": "Lenovo",
+			"Model Name": "330S-15IKB",
+			"Model Number": "81F5004EUS",
+			"Price": "$529.99",
+			"Operating System": "Windows 10",
+			"Hard Drive Size": "SSD",
+			"RAM size": "8GB",
+			"Screen Size": "15.6",
+			"Weight": "3.97"
+		},
+
+		{
+			"Brand": "Lenovo",
+			"Model Name": "Yoga 720",
+			"Model Number": "81B5001HUS",
+			"Price": "$629.99",
+			"Operating System": "Windows 10",
+			"Hard Drive Size": "128GB SSD",
+			"RAM size": "4GB",
+			"Screen Size": "12.5",
+			"Weight": "2.54"
+		},
+
+		{
+			"Brand": "Lenovo",
+			"Model Name": "Intel Celeron",
+			"Model Number": "81A5001UUS",
+			"Price": "$189.99",
+			"Operating System": "Windows 10",
+			"Hard Drive Size": "32GB",
+			"RAM size": "2GB",
+			"Screen Size": "14",
+			"Weight": "3.17"
+		}
+
+
+	],
+
+	"Dell": [
+		{
+			"Brand": "Dell",
+			"Model Name": "Inspiron",
+			"Model Number": "I3565-A453BLK-PUS",
+			"Price": "$229.99",
+			"Operating System": "Windows 10",
+			"Hard Drive Size": "500GB",
+			"RAM size": "4GB",
+			"Screen Size": "15.6",
+			"Weight": "5.07"
+		},
+
+		{
+			"Brand": "Dell",
+			"Model Name": "Inspiron 2-in-1",
+			"Model Number": "I7573-5104GRY-PUS",
+			"Price": "$639.99",
+			"Operating System": "Windows 10",
+			"Hard Drive Size": "2TB",
+			"RAM size": "8GB",
+			"Screen Size": "15.6",
+			"Weight": "4.98"
+		},
+
+		{
+			"Brand": "Dell",
+			"Model Name": "Inspiron",
+			"Model Number": "I3567-3636BLK-PUS",
+			"Price": "$280.99",
+			"Operating System": "Windows 10",
+			"Hard Drive Size": "1TB",
+			"RAM size": "8GB",
+			"Screen Size": "15.6",
+			"Weight": "5.07"
+		},
+
+		{
+			"Brand": "Dell",
+			"Model Name": "Inspiron 2-in-1",
+			"Model Number": "I7573-7012GRY-PUS",
+			"Price": "$759.99",
+			"Operating System": "Windows 10",
+			"Hard Drive Size": "2TB",
+			"RAM size": "12GB",
+			"Screen Size": "15.6",
+			"Weight": "4.98"
+		},
+
+		{
+			"Brand": "Dell",
+			"Model Name": "Inspiron",
+			"Model Number": "I3180-A361GRY-PUS",
+			"Price": "$199.99",
+			"Operating System": "Windows 10",
+			"Hard Drive Size": "32GB",
+			"RAM size": "4GB",
+			"Screen Size": "11.6",
+			"Weight": "2.93"
+		}
+
+	],
+
+	"HP": [
+
+		{
+			"Brand": "HP",
+			"Model Name": "2-in-1",
+			"Model Number": "15-BS113DX",
+			"Price": "$479.99",
+			"Operating System": "Windows 10",
+			"Hard Drive Size": "1TB",
+			"RAM size": "8GB",
+			"Screen Size": "15.6",
+			"Weight": "4.52"
+		},
+
+		{
+			"Brand": "HP",
+			"Model Name": "AMD A6",
+			"Model Number": "15-DB0011DX",
+			"Price": "$299.99",
+			"Operating System": "Windows 10",
+			"Hard Drive Size": "1TB",
+			"RAM size": "4GB",
+			"Screen Size": "15.6",
+			"Weight": "4.61"
+		},
+
+		{
+			"Brand": "HP",
+			"Model Name": "2-in-1",
+			"Model Number": "14M-BA013DX",
+			"Price": "$474.99",
+			"Operating System": "Windows 10",
+			"Hard Drive Size": "500GB",
+			"RAM size": "6GB",
+			"Screen Size": "14",
+			"Weight": "3.79"
+		},
+
+		{
+			"Brand": "HP",
+			"Model Name": "TouchScreen",
+			"Model Number": "15-BS115DX",
+			"Price": "$503.99",
+			"Operating System": "Windows 10",
+			"Hard Drive Size": "1TB",
+			"RAM size": "8GB",
+			"Screen Size": "15.6",
+			"Weight": "4.5"
+		},
+
+		{	
+			"Brand": "HP",
+			"Model Name": "ENVY x360",
+			"Model Number": "15M-BP112DX",
+			"Price": "$836.99",
+			"Operating System": "Windows 10",
+			"Hard Drive Size": "1TB",
+			"RAM size": "16GB",
+			"Screen Size": "15.6",
+			"Weight": "4.75"
+		}
+
+
+	],
+
+	"Samsung": [
+
+		{
+			"Brand": "Samsung",
+			"Model Name": "Notebook 7 Spin",
+			"Model Number": "NP740U5M-X01US",
+			"Price": "$849.99",
+			"Operating System": "Windows 10",
+			"Hard Drive Size": "1TB",
+			"RAM size": "12GB",
+			"Screen Size": "15.6",
+			"Weight": "5"
+		},
+
+		{
+			"Brand": "Samsung",
+			"Model Name": "Notebook 5",
+			"Model Number": "NP530E5M-X02US",
+			"Price": "$487.99",
+			"Operating System": "Windows 10",
+			"Hard Drive Size": "1TB",
+			"RAM size": "8GB",
+			"Screen Size": "15.6",
+			"Weight": "5.18"
+		},
+
+		{
+			"Brand": "Samsung",
+			"Model Name": "Notebook 9 Pro",
+			"Model Number": "NP940X3N-K01US",
+			"Price": "$1149.99",
+			"Operating System": "Windows 10",
+			"Hard Drive Size": "256GB",
+			"RAM size": "8GB",
+			"Screen Size": "13.3",
+			"Weight": "2.91"
+		},
+
+		{
+			"Brand": "Samsung",
+			"Model Name": "Notebook 9 Pro",
+			"Model Number": "NP-940X5N-X01US",
+			"Price": "$1199.99",
+			"Operating System": "Windows 10",
+			"Hard Drive Size": "256GB",
+			"RAM size": "16GB",
+			"Screen Size": "15",
+			"Weight": "3.79"
+		},
+
+		{
+			"Brand": "Samsung",
+			"Model Name": "Notebook 7 Spin",
+			"Model Number": "NP730QAA-K01US",
+			"Price": "$899.99",
+			"Operating System": "Windows 10",
+			"Hard Drive Size": "256GB",
+			"RAM size": "8GB",
+			"Screen Size": "13.3",
+			"Weight": "3.2"
+		}
+
+	],
+
+	"Asus": [
+		{
+			"Brand": "Asus",
+			"Model Name": "VivoBook S15",
+			"Model Number": "S510UADS71",
+			"Price": "$799.99",
+			"Operating System": "Windows 10",
+			"Hard Drive Size": "1TB",
+			"RAM size": "8GB",
+			"Screen Size": "15.6",
+			"Weight": "3.75"
+		},
+
+		{
+			"Brand": "Asus",
+			"Model Name": "VivoBook Max",
+			"Model Number": "X541NA-PD1003Y",
+			"Price": "$209.99",
+			"Operating System": "Windows 10",
+			"Hard Drive Size": "500GB",
+			"RAM size": "4GB",
+			"Screen Size": "15.6",
+			"Weight": "2.2"
+		},
+
+		{
+			"Brand": "Asus",
+			"Model Name": "2-in-1",
+			"Model Number": "Q535UD-BI7T11",
+			"Price": "$1399.99",
+			"Operating System": "Windows 10",
+			"Hard Drive Size": "2TB",
+			"RAM size": "16GB",
+			"Screen Size": "15.6",
+			"Weight": "4.63"
+		},
+
+		{
+			"Brand": "Asus",
+			"Model Name": "VivoBook Flip",
+			"Model Number": "TP410UADS71T",
+			"Price": "$807.99",
+			"Operating System": "Windows 10",
+			"Hard Drive Size": "1TB",
+			"RAM size": "8GB",
+			"Screen Size": "14",
+			"Weight": "3.51"
+		},
+
+		{
+			"Brand": "Asus",
+			"Model Name": "VivoBook S15",
+			"Model Number": "S510UADS51",
+			"Price": "$676.99",
+			"Operating System": "Windows 10",
+			"Hard Drive Size": "256GB",
+			"RAM size": "8GB",
+			"Screen Size": "15.6",
+			"Weight": "3.31"
+		}
+
+	]
+
+
+
+
+
+}

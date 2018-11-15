@@ -1,0 +1,93 @@
+/* Style rules for Activity 02 page */
+
+/*    Completed by:  */
+/*  Joshua Rao */
+/*  July 18 2018 */
+
+body {
+	background-color: white; 
+    color: black;
+    margin: 1em;
+    }       
+ /* Now you add the rest */
+
+h1, h2 {
+	font-family: Georgia;
+}
+
+h2:p:first-of-type {
+	font-style: italic;
+}
+
+h2 + p{
+	font-size: 120%; 
+}
+
+h2 + p::first-line {
+	font-style: italic;
+}
+
+h2 + p::first-letter {
+	font-weight: bold;
+	font-size: 200%;
+}
+
+ol li:first-child {
+	font-weight: bold;
+	color: purple;
+}
+
+ol li li li:nth-child(2) {
+	font-weight: normal;
+	color: black;
+}
+
+ol li li li:nth-child(3) {
+	font-weight: normal;
+	color: black;
+}
+
+a:hover {
+	background-color: #ddd;
+}
+a[title]:hover {
+	background-color: yellow;
+}
+
+ol {
+	list-style-type: upper-roman;
+}
+
+ol > li > ol  {
+	list-style-type: upper-alpha;
+}
+
+ol > li > ol > li > ol {
+	list-style-type: decimal;
+}
+
+th {
+	background-color: black;
+	color: white;
+}
+
+tr:nth-child(2n) {
+	background-color: #eee;
+}
+
+p a {
+	color: red;
+}
+
+li a {
+	color: green;
+}
+
+a[href^="http:"]:after {
+	content: '\219F';
+}
+
+.latin {
+	font-family: "Brush Script MT", cursive;
+}
+

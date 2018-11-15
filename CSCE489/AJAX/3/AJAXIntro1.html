@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div>
+
+<h1>AJAX 1 - Tracking status changes</h1>
+
+<button type="button"
+onclick="changeText('status_page.txt')">Success
+</button>
+<button type="button"
+onclick="changeText('page_does_not_exist.txt')">Fail
+</button>
+</br>
+</br>
+</div>
+<div id="change">
+</div>
+
+<script>
+function changeText(url) {
+	var xhttp = new XMLHttpRequest();
+	xhttp.open("GET", url);
+	document.getElementById("change").innerHTML = '';
+	//alert("hello there");
+	xhttp.onreadystatechange = function() {
+		/*
+		if (this.readyState == 4 && this.status == 200) {
+			alert("1: " + xhttp.status);
+		}*/
+		if (this.status === 404) {
+			alert("status: " + this.status);
+			var tempText = document.getElementById("change");
+			tempText.innerHTML = "404 Error";
+		}
+		else {
+			if (this.readyState === 2) {
+				alert("readyState: " + this.readyState);
+				document.getElementById("change").innerHTML = "Receiving" + "<br>";
+			}
+			if (this.readyState === 3) {
+				alert("readyState: " + this.readyState);
+				var tempText = document.getElementById("change");
+				tempText.innerHTML = tempText.innerHTML + "Processing..." + "<br>";
+			}
+			if (this.readyState === 4) {
+				alert("readyState: " + this.readyState);
+				var tempText = document.getElementById("change");
+				tempText.innerHTML = tempText.innerHTML + "Finished and Ready" + "<br>";
+				tempText.innerHTML = tempText.innerHTML + "Response Text: " + xhttp.responseText; 
+			}
+		}
+	}
+	xhttp.open("GET", url);
+	xhttp.send();
+}
+/*
+function testFile(fileText) {
+	alert("hello there");
+	if (!fileText) {
+		alert("fuck");
+	}
+	else {
+		alert("yes");
+	}
+}*/
+</script>
+</body>
+</html>

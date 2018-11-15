@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://www.w3schools.com/lib/w3.js"></script>
+		<script src="scripts.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<title>JavaScript, DOM, BOM - Lab C by Joshua Rao</title>
+	</head>
+
+	<body>
+	
+		
+		<div style="width: 100%">
+	    	<div style = "width: 75px; float: left">
+	        	<input type="checkbox" id="lenovo"
+	               value="lenovo" onchange="checkLenovo(this)"  checked />
+	        	<label for="lenovo">Lenovo</label>
+	    	</div>
+
+	    	<div style = "width: 75px; display: inline">
+	        	<input type="checkbox" id="dell"
+	               value="dell" onchange="checkDell(this)"  checked />
+	        	<label for="scales">Dell</label>
+	    	</div>
+
+	    	<div style = "width: 75px; display: inline" >
+	        	<input type="checkbox" id="HP" 
+	               value="HP" onchange="checkHP(this)" checked />
+	        	<label for="scales">HP</label>
+	    	</div>
+
+	    	<div style = "width: 75px; display: inline">
+	        	<input type="checkbox" id="samsung" 
+	               value="samsung" onchange="checkSamsung(this)" checked />
+	        	<label for="scales">Samsung</label>
+	    	</div>
+
+	    	<div style = "width:75px; display: inline">
+	        	<input type="checkbox" id="asus" 
+	               value="asus" onchange="checkAsus(this)"  checked />
+	        	<label for="scales">Asus</label>
+	    	</div>
+	    	<br><br>
+	    	<div style = "width: 300px; display: inline">
+		    	<form id="weightForm">
+	  				Enter Maximum Weight in Pounds (Please check the checkbox underneath. If you have entered in a new value you will have to uncheck and then check the box again): <input type="number" name="fname" id = "userWeight"><br><br>
+	 			 <input type="checkbox" id="weight" 
+	               value="weight" onchange="checkWeight(this)"  unchecked />
+				</form>
+			</div>
+			<br>
+			<div style = "width: 300px; display: inline">
+		    	<form id="screenForm">
+	  				Enter Minimum Screen Length in Inches (Please check the checkbox underneath. If you have entered in a new value you will have to uncheck and then check the box again): <input type="number" name="fname" id = userScreen><br><br>
+	 			 <input type="checkbox" id="screen" 
+	               value="screen" onchange="checkScreen(this)"  unchecked />
+				</form>
+			</div>
+	    </div>
+
+
+
+		<div style = "width: 100%; display: table;">
+			<div style = "display: table-row">
+				<div id="id1" style="display: table-cell;">
+					
+					
+						<img src="images/lenovo.jpeg" id = "img1" width="200px" height="150px" onclick = "newWindow('id1')">
+					
+					<br>
+					<p id = p1>
+						Brand: {{brand}} <br>
+						Model Name: {{modelName}} <br>
+						Model Number: {{modelNumber}} <br>
+						Operating System: {{OS}} <br>
+						Price: {{price}} <br>
+						Hard Drive Size: {{hardDrive}} <br>
+						RAM Size: {{RAM}} <br>
+						Screen Size (in): {{screen}} <br>
+						Weight (lbs): {{weight}} <br>
+					</p>
+				</div>
+				
+				<div id="id2" style="display: table-cell;">
+
+					<img src="images/lenovo.jpeg" id = "img2" width="200px" height="150px" onclick = "newWindow('id2')"><br>
+					Brand: {{brand}} <br>
+					Model Name: {{modelName}} <br>
+					Model Number: {{modelNumber}} <br>
+					Operating System: {{OS}} <br>
+					Price: {{price}} <br>
+					Hard Drive Size: {{hardDrive}} <br>
+					RAM Size: {{RAM}} <br>
+					Screen Size (in): {{screen}} <br>
+					Weight (lbs): {{weight}} <br>
+				</div>
+
+				<div id="id3" style="display: table-cell;">
+					
+					<img src="images/lenovo.jpeg" id = "img3" width="200px" height="150px" onclick = "newWindow('id3')"><br>
+					Brand: {{brand}} <br>
+					Model Name: {{modelName}} <br>
+					Model Number: {{modelNumber}} <br>
+					Operating System: {{OS}} <br>
+					Price: {{price}} <br>
+					Hard Drive Size: {{hardDrive}} <br>
+					RAM Size: {{RAM}} <br>
+					Screen Size (in): {{screen}} <br>
+					Weight (lbs): {{weight}} <br>
+				</div>
+
+				<div id="id4" style="display: table-cell;">
+					
+					<img src="images/lenovo.jpeg" id = "img4" width="200px" height="150px" onclick = "newWindow('id4')"><br>
+					Brand: {{brand}} <br>
+					Model Name: {{modelName}} <br>
+					Model Number: {{modelNumber}} <br>
+					Operating System: {{OS}} <br>
+					Price: {{price}} <br>
+					Hard Drive Size: {{hardDrive}} <br>
+					RAM Size: {{RAM}} <br>
+					Screen Size (in): {{screen}} <br>
+					Weight (lbs): {{weight}} <br>
+				</div>
+
+				<div id="id5" style="display: table-cell;">
+					
+					<img src="images/lenovo.jpeg" id = "img5" width="200px" height="150px" onclick = "newWindow('id5')"><br>
+					Brand: {{brand}} <br>
+					Model Name: {{modelName}} <br>
+					Model Number: {{modelNumber}} <br>
+					Operating System: {{OS}} <br>
+					Price: {{price}} <br>
+					Hard Drive Size: {{hardDrive}} <br>
+					RAM Size: {{RAM}} <br>
+					Screen Size (in): {{screen}} <br>
+					Weight (lbs): {{weight}} <br>
+				</div>
+			</div>
+			<br>
+			<div style = "display: table-row">
+				<div id="id6" style="display: table-cell;">
+					
+					<img src="images/dell.jpeg" id = "img6" width="200px" height="150px" onclick = "newWindow('id6')"><br>
+					Brand: {{brand}} <br>
+					Model Name: {{modelName}} <br>
+					Model Number: {{modelNumber}} <br>
+					Operating System: {{OS}} <br>
+					Price: {{price}} <br>
+					Hard Drive Size: {{hardDrive}} <br>
+					RAM Size: {{RAM}} <br>
+					Screen Size (in): {{screen}} <br>
+					Weight (lbs): {{weight}} <br>
+				
+				</div>
+				
+				<div id="id7" style="display: table-cell;">
+					
+					<img src="images/dell.jpeg" id = "img7" width="200px" height="150px" onclick = "newWindow('id7')"><br>
+					Brand: {{brand}} <br>
+					Model Name: {{modelName}} <br>
+					Model Number: {{modelNumber}} <br>
+					Operating System: {{OS}} <br>
+					Price: {{price}} <br>
+					Hard Drive Size: {{hardDrive}} <br>
+					RAM Size: {{RAM}} <br>
+					Screen Size (in): {{screen}} <br>
+					Weight (lbs): {{weight}} <br>
+				</div>
+
+				<div id="id8" style="display: table-cell;">
+					
+					<img src="images/dell.jpeg" id = "img8" width="200px" height="150px" onclick = "newWindow('id8')"><br>
+					Brand: {{brand}} <br>
+					Model Name: {{modelName}} <br>
+					Model Number: {{modelNumber}} <br>
+					Operating System: {{OS}} <br>
+					Price: {{price}} <br>
+					Hard Drive Size: {{hardDrive}} <br>
+					RAM Size: {{RAM}} <br>
+					Screen Size (in): {{screen}} <br>
+					Weight (lbs): {{weight}} <br>
+				</div>
+
+				<div id="id9" style="display: table-cell;">
+					
+					<img src="images/dell.jpeg" id = "img9" width="200px" height="150px" onclick = "newWindow('id9')"><br>
+					Brand: {{brand}} <br>
+					Model Name: {{modelName}} <br>
+					Model Number: {{modelNumber}} <br>
+					Operating System: {{OS}} <br>
+					Price: {{price}} <br>
+					Hard Drive Size: {{hardDrive}} <br>
+					RAM Size: {{RAM}} <br>
+					Screen Size (in): {{screen}} <br>
+					Weight (lbs): {{weight}} <br>
+				</div>
+
+				<div id="id10" style="display: table-cell;">
+					
+					<img src="images/dell.jpeg" id = "img10" width="200px" height="150px" onclick = "newWindow('id10')"><br>
+					Brand: {{brand}} <br>
+					Model Name: {{modelName}} <br>
+					Model Number: {{modelNumber}} <br>
+					Operating System: {{OS}} <br>
+					Price: {{price}} <br>
+					Hard Drive Size: {{hardDrive}} <br>
+					RAM Size: {{RAM}} <br>
+					Screen Size (in): {{screen}} <br>
+					Weight (lbs): {{weight}} <br>
+				</div>
+			</div>
+			<br>
+			<div style = "display: table-row">
+				<div id="id11" style="display: table-cell;">
+					
+					<img src="images/hp.jpeg" id = "img11" width="200px" height="150px" onclick = "newWindow('id11')"><br>
+					Brand: {{brand}} <br>
+					Model Name: {{modelName}} <br>
+					Model Number: {{modelNumber}} <br>
+					Operating System: {{OS}} <br>
+					Price: {{price}} <br>
+					Hard Drive Size: {{hardDrive}} <br>
+					RAM Size: {{RAM}} <br>
+					Screen Size (in): {{screen}} <br>
+					Weight (lbs): {{weight}} <br>
+				
+				</div>
+				
+				<div id="id12" style="display: table-cell;">
+					
+					<img src="images/hp.jpeg" id = "img12" width="200px" height="150px" onclick = "newWindow('id12')"><br>
+					Brand: {{brand}} <br>
+					Model Name: {{modelName}} <br>
+					Model Number: {{modelNumber}} <br>
+					Operating System: {{OS}} <br>
+					Price: {{price}} <br>
+					Hard Drive Size: {{hardDrive}} <br>
+					RAM Size: {{RAM}} <br>
+					Screen Size (in): {{screen}} <br>
+					Weight (lbs): {{weight}} <br>
+				</div>
+
+				<div id="id13" style="display: table-cell;">
+					
+					<img src="images/hp.jpeg" id = "img13" width="200px" height="150px" onclick = "newWindow('id13')"><br>
+					Brand: {{brand}} <br>
+					Model Name: {{modelName}} <br>
+					Model Number: {{modelNumber}} <br>
+					Operating System: {{OS}} <br>
+					Price: {{price}} <br>
+					Hard Drive Size: {{hardDrive}} <br>
+					RAM Size: {{RAM}} <br>
+					Screen Size (in): {{screen}} <br>
+					Weight (lbs): {{weight}} <br>
+				</div>
+
+				<div id="id14" style="display: table-cell;">
+					
+					<img src="images/hp.jpeg" id = "img14" width="200px" height="150px" onclick = "newWindow('id14')"><br>
+					Brand: {{brand}} <br>
+					Model Name: {{modelName}} <br>
+					Model Number: {{modelNumber}} <br>
+					Operating System: {{OS}} <br>
+					Price: {{price}} <br>
+					Hard Drive Size: {{hardDrive}} <br>
+					RAM Size: {{RAM}} <br>
+					Screen Size (in): {{screen}} <br>
+					Weight (lbs): {{weight}} <br>
+				</div>
+
+				<div id="id15" style="display: table-cell;">
+					
+					<img src="images/hp.jpeg" id = "img15" width="200px" height="150px" onclick = "newWindow('id15')"><br>
+					Brand: {{brand}} <br>
+					Model Name: {{modelName}} <br>
+					Model Number: {{modelNumber}} <br>
+					Operating System: {{OS}} <br>
+					Price: {{price}} <br>
+					Hard Drive Size: {{hardDrive}} <br>
+					RAM Size: {{RAM}} <br>
+					Screen Size (in): {{screen}} <br>
+					Weight (lbs): {{weight}} <br>
+				</div>
+			</div>
+			<br>
+			<div style = "display: table-row">
+				<div id="id16" style="display: table-cell;">
+					
+					<img src="images/samsung.jpeg" id = "img16" width="200px" height="150px" onclick = "newWindow('id16')"><br>
+					Brand: {{brand}} <br>
+					Model Name: {{modelName}} <br>
+					Model Number: {{modelNumber}} <br>
+					Operating System: {{OS}} <br>
+					Price: {{price}} <br>
+					Hard Drive Size: {{hardDrive}} <br>
+					RAM Size: {{RAM}} <br>
+					Screen Size (in): {{screen}} <br>
+					Weight (lbs): {{weight}} <br>
+				
+				</div>
+				
+				<div id="id17" style="display: table-cell;">
+					
+					<img src="images/samsung.jpeg" id = "img17" width="200px" height="150px" onclick = "newWindow('id17')"><br>
+					Brand: {{brand}} <br>
+					Model Name: {{modelName}} <br>
+					Model Number: {{modelNumber}} <br>
+					Operating System: {{OS}} <br>
+					Price: {{price}} <br>
+					Hard Drive Size: {{hardDrive}} <br>
+					RAM Size: {{RAM}} <br>
+					Screen Size (in): {{screen}} <br>
+					Weight (lbs): {{weight}} <br>
+				</div>
+
+				<div id="id18" style="display: table-cell;">
+					
+					<img src="images/samsung.jpeg" id = "img18" width="200px" height="150px" onclick = "newWindow('id18')"><br>
+					Brand: {{brand}} <br>
+					Model Name: {{modelName}} <br>
+					Model Number: {{modelNumber}} <br>
+					Operating System: {{OS}} <br>
+					Price: {{price}} <br>
+					Hard Drive Size: {{hardDrive}} <br>
+					RAM Size: {{RAM}} <br>
+					Screen Size  (in): {{screen}} <br>
+					Weight (lbs): {{weight}} <br>
+				</div>
+
+				<div id="id19" style="display: table-cell;">
+					
+					<img src="images/samsung.jpeg" id = "img19" width="200px" height="150px" onclick = "newWindow('id19')"><br>
+					Brand: {{brand}} <br>
+					Model Name: {{modelName}} <br>
+					Model Number: {{modelNumber}} <br>
+					Operating System: {{OS}} <br>
+					Price: {{price}} <br>
+					Hard Drive Size: {{hardDrive}} <br>
+					RAM Size: {{RAM}} <br>
+					Screen Size (in): {{screen}} <br>
+					Weight (lbs): {{weight}} <br>
+				</div>
+
+				<div id="id20" style="display: table-cell;">
+					
+					<img src="images/samsung.jpeg" id = "img20" width="200px" height="150px" onclick = "newWindow('id20')"><br>
+					Brand: {{brand}} <br>
+					Model Name: {{modelName}} <br>
+					Model Number: {{modelNumber}} <br>
+					Operating System: {{OS}} <br>
+					Price: {{price}} <br>
+					Hard Drive Size: {{hardDrive}} <br>
+					RAM Size: {{RAM}} <br>
+					Screen Size (in): {{screen}} <br>
+					Weight (lbs): {{weight}} <br>
+				</div>
+			</div>
+			<br>
+			<div style = "display: table-row">
+				<div id="id21" style="display: table-cell;">
+					
+					<img src="images/asus.jpeg" id = "img21" width="200px" height="150px" onclick = "newWindow('id21')"><br>
+					Brand: {{brand}} <br>
+					Model Name: {{modelName}} <br>
+					Model Number: {{modelNumber}} <br>
+					Operating System: {{OS}} <br>
+					Price: {{price}} <br>
+					Hard Drive Size: {{hardDrive}} <br>
+					RAM Size: {{RAM}} <br>
+					Screen Size (in): {{screen}} <br>
+					Weight (lbs): {{weight}} <br>
+				
+				</div>
+				
+				<div id="id22" style="display: table-cell;">
+					
+					<img src="images/asus.jpeg" id = "img22" width="200px" height="150px" onclick = "newWindow('id22')"><br>
+					Brand: {{brand}} <br>
+					Model Name: {{modelName}} <br>
+					Model Number: {{modelNumber}} <br>
+					Operating System: {{OS}} <br>
+					Price: {{price}} <br>
+					Hard Drive Size: {{hardDrive}} <br>
+					RAM Size: {{RAM}} <br>
+					Screen Size (in): {{screen}} <br>
+					Weight (lbs): {{weight}} <br>
+				</div>
+
+				<div id="id23" style="display: table-cell;">
+					
+					<img src="images/asus.jpeg" id = "img23" width="200px" height="150px" onclick = "newWindow('id23')"><br>
+					Brand: {{brand}} <br>
+					Model Name: {{modelName}} <br>
+					Model Number: {{modelNumber}} <br>
+					Operating System: {{OS}} <br>
+					Price: {{price}} <br>
+					Hard Drive Size: {{hardDrive}} <br>
+					RAM Size: {{RAM}} <br>
+					Screen Size (in): {{screen}} <br>
+					Weight (lbs): {{weight}} <br>
+				</div>
+
+				<div id="id24" style="display: table-cell;">
+					
+					<img src="images/asus.jpeg" id = "img24" width="200px" height="150px" onclick = "newWindow('id24')"><br>
+					Brand: {{brand}} <br>
+					Model Name: {{modelName}} <br>
+					Model Number: {{modelNumber}} <br>
+					Operating System: {{OS}} <br>
+					Price: {{price}} <br>
+					Hard Drive Size: {{hardDrive}} <br>
+					RAM Size: {{RAM}} <br>
+					Screen Size (in): {{screen}} <br>
+					Weight (lbs): {{weight}} <br>
+				</div>
+
+				<div id="id25" style="display: table-cell;">
+					
+					<img src="images/asus.jpeg" id = "img25" width="200px" height="150px" onclick = "newWindow('id25')"><br>
+					Brand: {{brand}} <br>
+					Model Name: {{modelName}} <br>
+					Model Number: {{modelNumber}} <br>
+					Operating System: {{OS}} <br>
+					Price: {{price}} <br>
+					Hard Drive Size: {{hardDrive}} <br>
+					RAM Size: {{RAM}} <br>
+					Screen Size (in): {{screen}} <br>
+					Weight (lbs): {{weight}} <br>
+				</div>
+			</div>
+		</div>
+
+
+
+
+	</body>
+
+
+
+</html>

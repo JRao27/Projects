@@ -1,0 +1,18 @@
+Expedited PHP Homework A by Joshua Rao
+
+
+
+1. If Else Exercise 
+	URL - http://projects.cse.tamu.edu/josh1996/CSCE489/phpCode/IfElseA.html
+
+2. Arrays Exercise
+	URL - http://projects.cse.tamu.edu/josh1996/CSCE489/phpCode/ArraysA.html
+
+3. Strings and Functions Exercise
+	URL - http://projects.cse.tamu.edu/josh1996/CSCE489/phpCode/StringsA.html
+
+4. Form Exercise
+	URL - http://projects.cse.tamu.edu/josh1996/CSCE489/phpCode/FormA.html
+
+5. Validation Exercise
+	URL - http://projects.cse.tamu.edu/josh1996/CSCE489/phpCode/ValidationA.html

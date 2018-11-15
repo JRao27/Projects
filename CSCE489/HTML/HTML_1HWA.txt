@@ -1,0 +1,14 @@
+HTML Webpages by Joshua Rao. 
+
+	This may not be necessary but I included it for ease of access since I have made seperate folders for each question. 
+
+
+
+	Question 1
+		URL - http://projects.cse.tamu.edu/josh1996/CSCE489/HTML/1/HTML1.html
+
+	Question 2
+		URL - http://projects.cse.tamu.edu/josh1996/CSCE489/HTML/2/HTML2.html
+
+	Question 3
+		URL - http://projects.cse.tamu.edu/josh1996/CSCE489/HTML/3/HTML3.html
