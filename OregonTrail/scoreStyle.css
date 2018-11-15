@@ -1,0 +1,14 @@
+#finalBody {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family: Courier;
+}
+@font-face {
+    font-family: 'oregonFont';
+    src: url('font.ttf');
+}
+
+#mainHeader {
+	font-family: Courier;
+}

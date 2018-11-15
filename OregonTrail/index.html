@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+			<title>Oregon Trail Page</title>
+			<link rel="stylesheet" href="style.css">
+			<script src="oregon.js"></script>
+			<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+			<h1 id = "title">Oregon Trail</h1>
+	</head>
+
+
+
+	<body onload = "startMenu()">
+		<div id = "town_date">
+			<p id = "town">
+
+			</p>
+			<p id = "date">
+
+			</p>
+		</div>
+		<div id = "animationWindow">
+			<img id = "oxen">
+
+			</img>
+			<img id = "tree">
+
+			</img>
+			<img id = "river">
+
+			</img>
+			<img id = "gravestone">
+			
+			</img>
+		</div>
+		
+		<div id = "userWindow" align = "center">
+			<div class = "tempClass" id = "tempWindow" align = "center">
+				<div id = "storeTotal">
+					<h1>Bill so far: </h1>
+					<p id = "moneySpent">
+
+					</p>
+				</div>
+				<p id = "windowPara">
+					<p id = "dotsP">
+
+					</p>
+					<img id = "landmarkImage" src = "images/black.jpg">
+
+					</img>
+					<img id = "wagonRiver">
+
+					</img>
+					<img id = "dysenteryPic" src = "images/black.jpg">
+
+					</img>
+					<p id = "dysenteryPara">
+
+					</p>
+
+				</p>
+				<div class = "userClass" id = "userInput">
+					<form id="submitBox" onsubmit = "getSubmit(); return false">
+  						<input type="string" id="userBox" autofocus="autofocus" size = "30" placeholder = "Please enter input...">
+  						<br><br>
+					</form> 
+
+				</div>
+			</div>
+		</div>
+		<div id = "walletTotal">
+					<h1>You came into the store with: </h1>
+					<p id = "moneySaved">
+
+					</p>
+				</div>
+
+
+
+
+
+	</body>
+
+
+
+</html>
