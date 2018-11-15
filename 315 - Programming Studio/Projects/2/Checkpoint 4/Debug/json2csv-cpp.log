@@ -1,0 +1,5 @@
+﻿  index.cpp
+h:\315\projects\2\checkpoint 4\index.cpp(21): error C2079: 'reader' uses undefined class 'Json::Reader'
+h:\315\projects\2\checkpoint 4\index.cpp(26): error C2228: left of '.parse' must have class/struct/union
+  h:\315\projects\2\checkpoint 4\index.cpp(26): note: type is 'int'
+h:\315\projects\2\checkpoint 4\index.cpp(181): warning C4018: '<': signed/unsigned mismatch
