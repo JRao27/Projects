@@ -1050,7 +1050,7 @@ function died() {
 /*Start random stuff happening on trail and animations*/
 function randomStuff() {
 
-	var randomNum = randomNumber(30);
+	var randomNum = randomNumber(40);
 	
 	switch(randomNum) {
 		case 1://Get fruit
@@ -1213,7 +1213,7 @@ function incrementData() {
 		   		}
 		   		backpack.food -= team.rationsPerDay;
 
-		   		var randomNumDisease = randomNumber(50);
+		   		var randomNumDisease = randomNumber(45);
 		   		if (randomNumDisease > 40) {//randomNumDisease > 40
 		   			var tempNum = randomNumber(diseases.length);
 		   			var randomDisease = diseases[tempNum];
