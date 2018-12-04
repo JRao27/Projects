@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+
+
+	<head>
+		<title>FOOD PROJECT</title>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script src = "foodguruscript.js"></script>
+		<link rel="stylesheet" href="style.css">
+		
+
+	</head>
+
+	<body background = "food.jpg">
+		<div id = "searchDiv">
+			<h3 id = "siteTitle">Food Site</h3> <form id="FoodGuru" align = "right">
+													<input type="search" id = "mySearch" placeholder="Which ingredients?">
+													<span id = "result"></span>
+													<input type = "button" id = "searchButton" value = "Search" onClick="userSearch();">
+												</form>
+			<button id = "new_recipe" type="button" onclick = "randomRecipe()" style = "display: none;"><b><u>Related Recipe</u></b></button>
+			<a href="#" id = "newVideoLink" target="_"><button id = "new_video" type = "button" style = "display: none;"><b><u>Video</u></b></button></a>
+		</div>
+
+		<div id = "foodPicDiv">
+			<p id = "foodPic"></p>
+		</div>
+		<div id="snackbar">Searching...</div>
+		<div id = "foodInfoDiv" style = "margin-right: 10px">
+
+				<h1 id = "titleHeader"></h1>
+					<p id = "recTitle"> </p>
+
+				<h1 id = "ingredientsHeader"></h1>
+					<p id = "recIngred"> </p>
+
+				<h1 id = "instructionsHeader"></h1>
+					<p id = "recInstr"> </p>
+
+				<h1 id = "servingsHeader"></h1>
+					<p id = "recServings"> </p>
+
+				<h1 id = "caloriesHeader"></h1>
+					<p id = "recCalories"> </p>
+
+				<h1 id = "fatHeader"></h1>
+					<p id = "recFat"> </p>
+
+				<h1 id = "carbsHeader"></h1>
+					<p id = "recCarbs"> </p>
+
+				<h1 id = "proteinHeader"></h1>
+					<p id = "recProtein"> </p>
+
+				<h1 id = "sodiumHeader"></h1>
+					<p id = "recSodium"> </p>
+		</div>
+	<div id = "scrollingBar">
+		<marquee behavior="scroll" direction="left" scrollamount="4">
+			<img src="images/img1.jpeg" width="200" height="150">
+			<img src="images/img2.jpeg" width="200" height="150">
+			<img src="images/img3.jpeg" width="200" height="150">
+			<img src="images/img4.jpeg" width="200" height="150">
+			<img src="images/img5.jpeg" width="200" height="150">
+			<img src="images/img6.jpeg" width="200" height="150">
+			<img src="images/img7.jpeg" width="200" height="150">
+			<img src="images/img8.jpeg" width="200" height="150">
+			<img src="images/img9.jpeg" width="200" height="150">
+			<img src="images/img10.jpeg" width="200" height="150">
+
+			<img src="images/img11.jpeg" width="200" height="150">
+			<img src="images/img12.jpeg" width="200" height="150">
+			<img src="images/img13.jpeg" width="200" height="150">
+			<img src="images/img14.jpeg" width="200" height="150">
+			<img src="images/img15.jpeg" width="200" height="150">
+			<img src="images/img16.jpeg" width="200" height="150">
+			<img src="images/img17.jpeg" width="200" height="150">
+			<img src="images/img18.jpeg" width="200" height="150">
+			<img src="images/img19.jpeg" width="200" height="150">
+			<img src="images/img20.jpeg" width="200" height="150">
+
+			<img src="images/img21.jpeg" width="200" height="150">
+			<img src="images/img22.jpeg" width="200" height="150">
+			<img src="images/img23.jpeg" width="200" height="150">
+			<img src="images/img24.jpeg" width="200" height="150">
+			<img src="images/img25.jpeg" width="200" height="150">
+			<img src="images/img26.jpeg" width="200" height="150">
+			<img src="images/img27.jpeg" width="200" height="150">
+			<img src="images/img28.jpeg" width="200" height="150">
+			<img src="images/img29.jpeg" width="200" height="150">
+			<img src="images/img30.jpeg" width="200" height="150">
+		</marquee>
+	</div>
+	</body>
+
+
+</html>

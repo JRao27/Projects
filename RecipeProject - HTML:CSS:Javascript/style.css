@@ -1,0 +1,313 @@
+body {
+
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+* {
+	margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+/*
+#mySearch {
+	position: absolute;
+	top: 50%;
+	width: 50%;
+}
+
+#searchButton {
+	position: absolute;
+	top: 50%;
+	right: 45%;
+	transition: 0.25s ease-in-out;
+}*/
+input {
+	outline: none;
+}
+input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	font-size: 100%;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+	display: none; 
+}
+input[type=search] {
+	background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+	border: solid 1px #ccc;
+	padding: 9px 10px 9px 32px;
+	width: 55px;
+	
+	-webkit-border-radius: 10em;
+	-moz-border-radius: 10em;
+	border-radius: 10em;
+	
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+}
+
+input[type=search]:focus {
+	width: 130px;
+	background-color: #fff;
+	border-color: #66CC75;
+	
+	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+input:-moz-placeholder {
+	color: #999;
+}
+input::-webkit-input-placeholder {
+	color: #999;
+}
+
+img.rounded-corners {
+border-radius: 30px;
+}
+
+#demo-2 input[type=search] {
+	width: 15px;
+	padding-left: 10px;
+	color: transparent;
+	cursor: pointer;
+}
+#demo-2 input[type=search]:hover {
+	background-color: #fff;
+}
+#demo-2 input[type=search]:focus {
+	width: 130px;
+	padding-left: 32px;
+	color: #000;
+	background-color: #fff;
+	cursor: auto;
+}
+#demo-2 input:-moz-placeholder {
+	color: transparent;
+}
+#demo-2 input::-webkit-input-placeholder {
+	color: transparent;
+}
+
+#FoodGuru {
+	height: 75px;
+	display:inline-block;
+}
+#siteTitle {
+	display:inline-block;
+	font-style: italic;
+	font-size: 60px;
+	color: #966F33;
+	height: 0px;
+}
+
+#new_recipe {
+	position: relative;
+	font-size: 20px;
+	top: 50px;
+	right: 400px;
+	height: 150px;
+	width: 150px;
+	float: right;
+	border-radius: 50%;
+	background-color: #D3D3D3;
+	background-image: url(https://www.cfacdn.com/img/order/COM/PDP_UPDATE/Images/Breakfast/ChickenSausageBurrito-pdp_1797v2_2880px_resize2.png);
+	background-size: cover;
+	padding-bottom: 150px;
+}
+
+#new_video {
+	position: relative;
+	font-size: 20px;
+	top: 50px;
+	right: 50px;
+	height: 150px;
+	width: 150px;
+	float: right;
+	border-radius: 50%;
+	background-color: #D3D3D3;
+	background-image: url(youtube.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 150px;
+}
+
+
+#foodPicDiv {
+    width: 250px;
+    height: 250px;
+    border: 8px transparent;
+    border-radius: 12px;
+    background: transparent;
+    float: left;
+}
+
+#foodInfoDiv {
+	width: 75%;
+    height: 350px;
+    border: 8px transparent;
+    border-radius: 12px;
+   /* background: transparent;*/
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float:right;
+}
+
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+}
+
+#snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 0.5s;
+    animation: fadein 0.5s, fadeout 0.5s 0.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+
+#recTitle {
+
+}
+
+#recIngred {
+	
+}
+
+#recInstr {
+	
+}
+
+#recServings {
+	display: inline;
+	float: left;
+	width: 10%;
+}
+
+#recCalories {
+	display: inline;
+	float: left;
+	width: 10%;
+}
+
+#recFat {
+	display: inline;
+	float: left;
+	width: 10%;
+}
+
+#recCarbs {
+	display: inline;
+	float: left;
+	width: 10%;
+}
+
+#recProtein {
+	display: inline;
+	float: left;
+	width: 10%;
+}
+
+#recSodium {
+	display: inline;
+	float: left;
+	width: 10%;
+}
+
+#titleHeader {
+
+}
+
+#ingredientsHeader {
+
+}
+
+#instructionsHeader {
+
+}
+
+#servingsHeader {
+	display: inline;
+	float: left;
+}
+
+#caloriesHeader {
+	display: inline;
+	float: left;
+}
+
+#fatHeader {
+	display: inline;
+	float: left;
+}
+
+#carbsHeader {
+	display: inline;
+	float: left;
+}
+
+#proteinHeader {
+	display: inline;
+	float: left;
+}
+
+#sodiumHeader {
+	display: inline;
+	float: left;
+}
+
+#scrollingBar {
+}
+
+
